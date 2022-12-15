@@ -76,6 +76,35 @@ class _MyLoginState extends State<Mylogin> {
                           backgroundColor: Color(0xff4c505b),
                         )
                       ],
+                    ),
+                    SizedBox(
+                      height: 40,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              'Sign Up',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                fontSize: 18,
+                                color: Color(0xff4c505b),
+                              ),
+                            )),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            'Forgot Password',
+                            style: TextStyle(
+                              decoration: TextDecoration.underline,
+                              fontSize: 18,
+                              color: Color(0xff4c505b),
+                            ),
+                          ),
+                        ),
+                      ],
                     )
                   ],
                 ),
