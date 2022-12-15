@@ -84,7 +84,9 @@ class _MyLoginState extends State<Mylogin> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.pushNamed(context, 'register');
+                            },
                             child: Text(
                               'Sign Up',
                               style: TextStyle(
